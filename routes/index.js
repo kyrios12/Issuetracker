@@ -1,6 +1,11 @@
 const express = require('express');
 
 const router = express.Router();
-// Home controller to display home screen
 const homeController = require('../controllers/home_controller');
+
+console.log('router loaded');
+
 router.get('/', homeController.home);
+router.use('/project', require('./project'));
+
+module.exports = router;
