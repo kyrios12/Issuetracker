@@ -1,0 +1,23 @@
+{
+  "name": "issuetracker",
+  "version": "1.0.0",
+  "description": "My issue tracker project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"Issue\"",
+    "\"Bug\""
+  ],
+  "author": "Azzu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.4.0",
+    "nodemon": "^3.0.1"
+  }
+}
